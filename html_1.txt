@@ -1,0 +1,87 @@
+HTML
+	1. 1980
+	2. Special case of SGML (Standard Generalized Markup Lang)
+	3. Hyper Text Markup Language
+	4. Tags - tell Browser to do something
+	5. Attributes - tells browser how to do it
+	If not specified, Tags have default attr.
+	
+	6. Two types of tags
+		a. Container Tags
+		- Have staring and ending
+		b. Empty Tags
+		- No ending
+
+	7. Header Section
+		a. <META name="Author" content="Strings for search engine locatability" >
+		b. Charset-"windows-1252" http-equiv="Content-Type" url="res url"
+		c. <TITLE></TITLE>
+
+	8. Body Section
+		a. Heading tag
+			i. H1 to H6
+				1) ALIGN=left/right/center	left
+		B. P
+				1) Puts blank line at top and bottom\
+				2) <BR> - blank line
+				3) ALIGN=l/r/c	L
+				4) <CENTER> can also be done
+		C. FONT
+			i. FACE=Calibi	Font style(face)
+			SIZE = 23	Font size
+			COLOR = red	 
+			ii. Secial Characters
+				1) &lt	<
+				&gt	>
+				&amp	%
+				%quot	?
+				&agrave	`a
+				&Afrave	`A
+				&#144	Delta
+				&#188	1/4
+				&#189	1/2
+			iii. Formatting Tags
+				1) B,I,U,P	
+				TT	Text in fixed width font(like typewriter)
+				S	Strikethrough
+				STRONG, EM , CITE	B,I , I
+				BLOCKQUOTE	Quoted text
+				PRE	Same text exactly as in code
+	9. DIV - Division(changes are affected in this region only)
+	10. MULTICOL -Places text into multiple, equal width col(redundant)
+		A. Cols	No. of text columns
+		Gutter	Gap b/w text columns
+		Width	Width of each column
+	11. HR
+		A. Width	Px
+		Size	Thickness in px
+		Color	
+		Align	
+		Noshade	No shadow
+	12. BODY
+		A. 1. BGCOLOR	="RED"
+		2. TEXT	Text color
+		3. Backgorund	Jpg/music 
+		4. LINK	Link color
+		4. ALINK	Last clicked link
+		4. VLINK	Mouse clicked link
+		5. BGPROPERTIES = "fixed"	Background won't scroll
+		6. TOP/BOTTOM/..MARGIN	
+		7. BGSOUND	.wav
+
+	13. IMG
+		A. Images put into web pages are called Inline Images
+		B. Images should be in the same folder as of .html
+		C. SRC	Image.jpg
+		ALIGN	L,r,top,bottom, texttop, absbottom, absmiddle, baseline
+		BORDER	Px
+		HEIGHT	Px
+		WIDTH	Px (recommended to use either and not both)
+		ALT	Substitute is img src is not available
+		HSPACE , VSPACE	
+		LOWSRC	Low res src (LOWSRC loads first then SRC)
+		COMPLETE 	Specifies whether an img has been completely loaded or not
+
+	14. STYLE
+	
+	
